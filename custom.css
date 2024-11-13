@@ -1,0 +1,96 @@
+.main-text,.main-text p{
+    padding-left:0;
+    margin:0 auto;
+    text-align:center
+}
+.main-text{
+    position:absolute;
+    top:0;
+    width:100%;
+    color:#fff;
+    padding-top:185px
+}
+.main-text p{
+    font-family:DNFForgedBlade!important
+}
+.main-text1:after{
+    content:"리니지 3.1";
+    font-size:35px;
+    text-shadow:#C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px;
+}
+.main-text .main-text2:after{
+    content: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkuX4jR4gBFMSDiM0N5pOn9l34xjCudEQ7dgEZi4cn0yd8oMzfDbotjDiFNOLnhuTWkbSsupfHGP9iMMocMkmAgt2jiSR7iF3Tp_3Z0-qQ7A0vfUv0Sebgyfe_0r4uV_N_Yll37ufIDbD-Kb5D-dNg_z6c1qRy5VyHy8w3635PR4HJ7tDJGfOUS2J_thnK/s16000/%ED%88%AC%ED%98%BC%EB%A1%9C%EA%B3%A0.png");
+    font-size: 51px;
+    text-shadow: #C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px, #000 5px 5px;
+    color: #FAECC5;
+}
+@keyframes neon-flicker{
+    0%{
+        text-shadow:0 0 10px rgba(102,37,.7),0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7)
+    }
+    100%{
+        text-shadow:0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7),0 0 40px rgba(102,37,.7)
+    }
+}
+.main-date {
+margin-top:10px;
+}
+
+.main-date span{
+    background:rgba(18,18,18,0.7);
+    font-size:30px;
+    color:#fff;
+    word-break:keep-all;
+    word-wrap:break-word;
+    border-radius:15px;
+
+    padding:10px 30px;
+    font-family:DNFForgedBlade!important;
+
+}
+.section-promotion{
+    top:0;
+}
+.section-promotion .section-promotion__list{
+    height:660px!important
+}
+@media screen and (max-width:1024px){
+.main-date {
+padding-top: 160px;
+}
+    .main-text{
+        padding-top:20px !important;
+    }
+	.main-text1:after{
+	font-size:20px;	
+}
+    .main-text .main-text2:after{
+padding-top:80px;
+        font-size:50px;
+left: 200px;
+    position: absolute;
+zoom:40%;
+    }
+	.main-date span{
+font-size:18px;
+}
+    .section-promotion .section-promotion__list{
+        height:230px!important
+    }
+    .section-promotion{
+        top:0;
+        padding-top:70px
+    }
+    #showsidebar1 img,#showsidebar2 img ,#showsidebar3 img{
+        height:100px!important
+    }
+	#showsidebar3{
+        bottom:36%!important
+    }
+    #showsidebar2{
+        bottom:22%!important
+    }
+    #showsidebar1{
+        bottom:8%!important
+    }
+}
